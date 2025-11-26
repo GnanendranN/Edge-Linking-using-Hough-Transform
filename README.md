@@ -26,8 +26,8 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 
 ```
 
-Developed By : Krishna Prasad S
-Register No. : 212223230108
+Developed By : GNANENDRAN N
+Register No. : 212223240037
 
 ```
 ```py
@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 
 # Read the image
 
-image = cv2.imread('archery1.jpg')
+image = cv2.imread('road.jpg')
 plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  
 plt.title("Input Image")
 plt.axis('off')
@@ -126,26 +126,29 @@ plt.figure(figsize = (15, 10)); plt.imshow(hough);
 
 ### Input image and grayscale image
 
-![alt text](road.jpg)
+<img width="599" height="353" alt="image" src="https://github.com/user-attachments/assets/d9e0e7de-d501-4a0e-adec-8bfea483e14a" />
 
-![alt text](gray.png)
+
+<img width="609" height="355" alt="image" src="https://github.com/user-attachments/assets/4780feae-b8d5-4659-ad09-14f6ffe77c48" />
+
 
 ### Create Threshold
 
-![alt text](threshold.png)
+<img width="1253" height="734" alt="image" src="https://github.com/user-attachments/assets/9aa30c01-6333-45f7-9e95-405cb196a298" />
+
 
 ### Selecting the Region of Interest
 
-![alt text](sep.png)
+<img width="1237" height="259" alt="image" src="https://github.com/user-attachments/assets/5870db6f-d2e1-49dc-a831-0a58d29c1af6" />
+
 
 ### Detect Edges and Smooth Noise
-
-![alt text](canny.png)
-
+<img width="1230" height="354" alt="image" src="https://github.com/user-attachments/assets/bcb6d70d-033f-4e2f-be87-d2311056a6ac" />
 
 ### The result of Hough transform
 
-![alt text](h_transform.png)
+<img width="1241" height="711" alt="image" src="https://github.com/user-attachments/assets/893e24f2-955a-467e-bba4-5e28d4031bdc" />
+
 
 
 ## Result:
